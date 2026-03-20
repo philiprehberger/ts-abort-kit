@@ -7,7 +7,7 @@ import {
   onAbort,
   isAbortError,
   throwIfAborted,
-} from '../dist/index.js';
+} from '../../dist/index.js';
 
 describe('withTimeout', () => {
   it('should return an AbortSignal', () => {

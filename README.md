@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/@philiprehberger/abort-kit)](https://www.npmjs.com/package/@philiprehberger/abort-kit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-AbortController utilities — timeout, race, linked signals.
+AbortController utilities — timeout, race, linked signals
 
 ## Installation
 
