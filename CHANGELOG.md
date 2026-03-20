@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.1
+
+- Standardize package.json configuration
+
 ## [0.1.0] - 2026-03-20
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/abort-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AbortController utilities — timeout, race, linked signals",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -47,7 +47,7 @@
   "homepage": "https://github.com/philiprehberger/ts-abort-kit#readme",
   "sideEffects": false,
   "engines": {
-    "node": ">=18"
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
