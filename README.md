@@ -1,8 +1,8 @@
 # @philiprehberger/abort-kit
 
 [![CI](https://github.com/philiprehberger/ts-abort-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-abort-kit/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/@philiprehberger/abort-kit)](https://www.npmjs.com/package/@philiprehberger/abort-kit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/abort-kit.svg)](https://www.npmjs.com/package/@philiprehberger/abort-kit)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-abort-kit)](LICENSE)
 
 AbortController utilities — timeout, race, linked signals
 
