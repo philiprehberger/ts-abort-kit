@@ -1,9 +1,8 @@
 # @philiprehberger/abort-kit
 
-[![CI](https://github.com/philiprehberger/ts-abort-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-abort-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/abort-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/abort-kit/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/abort-kit.svg)](https://www.npmjs.com/package/@philiprehberger/abort-kit)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-abort-kit)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/abort-kit)](https://github.com/philiprehberger/abort-kit/commits/main)
 
 AbortController utilities — timeout, race, linked signals
 
@@ -77,6 +76,24 @@ npm run typecheck
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/abort-kit)
+
+🐛 [Report issues](https://github.com/philiprehberger/abort-kit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/abort-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
