@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Fix README GitHub URLs to use correct repo name (ts-abort-kit)
+
 ## 0.1.3
 
 - Standardize README to 3-badge format with emoji Support section
