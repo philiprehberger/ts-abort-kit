@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 (2026-04-27)
+- Add `withTimeoutCancellable()` returning `{ signal, cancel }` for explicit timer cleanup
+- Add `signalChain(signal)` returning chain depth and abort state for debugging
+
 ## 0.1.4
 
 - Fix README GitHub URLs to use correct repo name (ts-abort-kit)

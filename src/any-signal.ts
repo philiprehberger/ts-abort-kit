@@ -1,3 +1,5 @@
+import { registerChainParents } from './chain-registry.js';
+
 /**
  * Combine multiple AbortSignals into one that aborts when *any* input signal aborts.
  * Acts as a polyfill for `AbortSignal.any()`.
@@ -12,6 +14,7 @@ export function anySignal(signals: AbortSignal[]): AbortSignal {
   }
 
   const controller = new AbortController();
+  registerChainParents(controller.signal, signals.slice());
 
   const onAbort = (signal: AbortSignal): void => {
     controller.abort(signal.reason);

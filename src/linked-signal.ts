@@ -1,3 +1,4 @@
+import { registerChainParents } from './chain-registry.js';
 import type { LinkedSignalResult } from './types.js';
 
 /**
@@ -6,6 +7,7 @@ import type { LinkedSignalResult } from './types.js';
  */
 export function linkedSignal(parent: AbortSignal): LinkedSignalResult {
   const controller = new AbortController();
+  registerChainParents(controller.signal, [parent]);
 
   if (parent.aborted) {
     controller.abort(parent.reason);

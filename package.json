@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/abort-kit",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "AbortController utilities — timeout, race, linked signals",
   "type": "module",
   "main": "./dist/index.cjs",
